@@ -12,39 +12,37 @@ class DayMeals:
         self.foods = fi.FoodItem()
     
 
-    def addDayMeal(self,meal,params):
-        dayDate = str(date.today())
-        data = None
-        with open(self.day_meals_file) as json_file:
-                data = json.load(json_file)
-                daysDate = []
+    def addDayMeal(self,meal,params,_date=None):
+        if not _date: _date = str(date.today())
+        
+        # verifying if day exists in data base
+        days = fh.getJson(self.day_meals_file)
+        date_list = []
 
-                for key in list(data.keys()):
-                    daysDate.append(data[key].get("date"))
+        for _id in days:
+            date_list.append(days[_id].get("date"))
 
-                if dayDate not in daysDate:
-                    self.addDay()
-                    
-                for key in list(data.keys()):
+        if _date not in date_list:
+            self.addDay(_date)
+            days = fh.getJson(self.day_meals_file)
 
-                    if data[key].get("date") == dayDate:
-
-                        if(meal in data[key].get("meals")):
-                            print("Ihhhhh parece que ja temos um registro dessa refecao aqui, deseja alterar ? ")
-                            #todo
-                        else:
-                            data[key]["meals"][meal] = params
-                            data.update(data)
-                            print(data)
-                            break
-
-
-
-        if data:
-            fh.updateJson(self.day_meals_file, data)
+        if days:
+            for _id in list(days.keys()):
+                # veryfing if day is in the base
+                if days[_id].get("date") == _date:
+                    # veryfing if the meal already exists 
+                    if(meal in days[_id].get("meals")):
+                        print("Ihhhhh parece que ja temos um registro dessa refecao aqui, deseja alterar ? ")
+                        #todo
+                    # sending meal to the base
+                    else:
+                        days[_id]["meals"][meal] = params
+                        days = fh.getUpdatedData(self.day_meals_file,days)
+        
+            fh.updateJson(self.day_meals_file, days)
 
     def addDay(self,dayDate=None):
-        if dayDate != True: dayDate = str(date.today())
+        if not dayDate: dayDate = str(date.today())
 
         data = fh.getJson(self.day_meals_file)
 
@@ -138,10 +136,12 @@ class DayMeals:
         
         
         
+# meal = "breakfast"
+# params = {"jejum":1}
+        
+# g = DayMeals()    
+# g.addDayMeal(meal,params,"2020-05-08")
 
-        
-        
-    
     
     
 
