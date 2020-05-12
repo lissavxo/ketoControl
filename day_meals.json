@@ -241,5 +241,64 @@
                 "jejum": 1.0
             }
         }
+    },
+    "10": {
+        "date": "2020-05-08",
+        "meals": {
+            "breakfast": {
+                "jejum":1
+            },
+            "lunch": {
+                "frango": 60,
+                "carne-bovina":150,
+                "bacon": 30,
+                "vagem": 20,
+                "abobora-paulista": 25.0,
+                "sal": 3.0,
+                "azeite": 5.0
+            },
+            "afternoon-snack": {
+                "oleo-coco": 15.0
+            },
+            "dinner": {
+                "jejum": 1.0
+            }
+        }
+    },
+    "11": {
+        "date": "2020-05-09",
+        "dayOff": 1
+    },
+    "12": {
+        "date": "2020-05-10",
+        "dayOff": 1
+    },
+    "13": {
+        "date": "2020-05-11",
+        "meals": {
+            "breakfast": {
+                "oleo-coco": 10
+            },
+            "lunch":{
+                "abobora-cabotian":72,
+                "frango":100,
+                "vagem":30,
+                "bacon":30,
+                "azeite":5,
+                "manteiga":5,
+                "sal":2
+            },
+            "afternoon-snack":{
+                "amendoim":20,
+                "azeite":10,
+                "bacon":50,
+                "manteiga":10,
+                "sal":2
+            },
+            "dinner":{
+                "jejum":1,
+                "sal":3
+            }
+        }
     }
 }
