@@ -28,7 +28,7 @@ def getJson(file_name):
 
 def getJsonKeys(file_name):
     data = getJson(file_name)
-    return data.keys()
+    return list(data.keys())
 
 def getJsonObjectByKey(file_name, key):
     response = None

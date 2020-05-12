@@ -5,8 +5,8 @@ dayMealsClass = dm.DayMeals()
 def main():
     b = True
     while(b):
-        print("Olá consagrada, como ta indo essa dieta? Estou cuidando da organização pra vc...\n Falando nisso, o que vai querer pra hoje?\n")
-        option = int(input("1 - Adicionar Componente? \n2 - Cadastrar Refeição do dia? \n3 - Visualiazar resumo do dia? \n4 - Visualizar resumo de todos os dias?\n5 - Visualizar resumo por refeição  \n6 - Sair>"))
+        print("MENU")
+        option = int(input("1 - Adicionar Componente? \n2 - Cadastrar Refeição? \n3 - Visualiazar resumo do dia? \n4 - Visualizar resumo de todos os dias?\n5 - Visualizar resumo por refeição  \n6 - Sair>"))
 
         if (option == 1):
             first = True
@@ -32,20 +32,10 @@ def main():
         elif (option == 6):
             print("Thanks")
             break
-        
-    #return resp
-def addItem():
-    name = input("Name: ")
-    properties = {}
 
-    properties["carbohydrate"] = float(input("carbs g/(100g): "))
-    properties["protein"] = float(input("protein g/(100g): "))
-    properties["energy"] = int(input("energy kcal/(100g): "))
-    properties["sodium"] = float(input("sodium mg/(100g): "))*1000
-
-    foodClass.create(name.lower(), properties)
 
 def addMeal():
+    day = choose_day()
     meal = choose_meal()
     response = False
     if meal:
@@ -55,11 +45,13 @@ def addMeal():
         while f:
             ingredientName = input("Nome: ")
             if foodClass.getItem(ingredientName) == False:
-                resp = input("Nao achamos esse item aqui na base!\n Deseja voltar ao menu principal? (s/n) ")
+                resp = input("Nao achamos esse item aqui na base!\n Deseja adiconar? (s/n) ")
                 if resp.lower() == 's':
-                    return False
+                    addItem()
+                    print("Ok, pode tentar novamente")
+                    continue
                 elif resp.lower() == 'n':
-                    return True
+                    return False
             ingredientQtd = input("Quantidade (g): " )
             if float(ingredientQtd) % 2 == 0:
                 ingredientQtd = int(ingredientQtd)
@@ -72,10 +64,21 @@ def addMeal():
                 f = False
                 response = False
         if not response:       
-            dayMealsClass.addDayMeal(meal,ingredients)
+            dayMealsClass.addDayMeal(meal,ingredients,day)
     
     return response
             
+def addItem():
+    print("New Item")
+    name = input("Name: ")
+    properties = {}
+
+    properties["carbohydrate"] = float(input("carbs g/(100g): "))
+    properties["protein"] = float(input("protein g/(100g): "))
+    properties["energy"] = int(input("energy kcal/(100g): "))
+    properties["sodium"] = float(input("sodium mg/(100g): "))*1000
+
+    foodClass.create(name.lower(), properties)
 
 
          
