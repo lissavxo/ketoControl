@@ -1,0 +1,306 @@
+{
+    "bacon": {
+        "carbohydrate": 1.64,
+        "protein": 9.76,
+        "energy": 599,
+        "sodium": 49.6,
+        "lipid": 61.5,
+        "fibre": 0.0
+    },
+    "ovo": {
+        "carbohydrate": 2.77,
+        "protein": 9.04,
+        "energy": 125,
+        "sodium": 147.0,
+        "lipid": 8.74,
+        "fibre": 0.0
+    },
+    "frango": {
+        "carbohydrate": 0.0,
+        "protein": 20.7,
+        "energy": 143,
+        "sodium": 62.3,
+        "lipid": 8.21,
+        "fibre": 0.0
+    },
+    "vagem": {
+        "carbohydrate": 2.74,
+        "protein": 1.77,
+        "energy": 24,
+        "sodium": 0.0,
+        "lipid": 0.16,
+        "fibre": 2.46
+    },
+    "quiabo": {
+        "carbohydrate": 2.45,
+        "protein": 1.77,
+        "energy": 26,
+        "sodium": 0.87,
+        "lipid": 0.2,
+        "fibre": 4.08
+    },
+    "alface": {
+        "carbohydrate": 0.05,
+        "protein": 1.08,
+        "energy": 8,
+        "sodium": 4.2,
+        "lipid": 0.16,
+        "fibre": 1.87
+    },
+    "agriao": {
+        "carbohydrate": 0.59,
+        "protein": 3.17,
+        "energy": 23,
+        "sodium": 10.7,
+        "lipid": 0.45,
+        "fibre": 0.45
+    },
+    "tomate": {
+        "carbohydrate": 2.22,
+        "protein": 1.04,
+        "energy": 17,
+        "sodium": 3.13,
+        "lipid": 0.17,
+        "fibre": 0.17
+    },
+    "creme-leite": {
+        "carbohydrate": 3.3,
+        "protein": 1.95,
+        "energy": 238,
+        "sodium": 51.7,
+        "lipid": 23.0,
+        "fibre": 0.0
+    },
+    "manteiga": {
+        "carbohydrate": 0.5,
+        "protein": 0.52,
+        "energy": 743,
+        "sodium": 578.0,
+        "lipid": 74.4,
+        "fibre": 0.0
+    },
+    "azeite": {
+        "carbohydrate": 0.05,
+        "protein": 0.0,
+        "energy": 900,
+        "sodium": 0.0,
+        "lipid": 100.0,
+        "fibre": 0.0
+    },
+    "abacate": {
+        "carbohydrate": 1.81,
+        "protein": 1.15,
+        "energy": 75,
+        "sodium": 0.0,
+        "lipid": 6.21,
+        "fibre": 4.03
+    },
+    "castanha-para": {
+        "carbohydrate": 7.15,
+        "protein": 14.5,
+        "energy": 673,
+        "sodium": 0.4,
+        "lipid": 63.5,
+        "fibre": 7.93
+    },
+    "castanha-caju": {
+        "carbohydrate": 26.9,
+        "protein": 18.2,
+        "energy": 581,
+        "sodium": 12.0,
+        "lipid": 43.8,
+        "fibre": 3.3
+    },
+    "amendoim": {
+        "carbohydrate": 14.5,
+        "protein": 25.4,
+        "energy": 588,
+        "sodium": 0.0,
+        "lipid": 46.3,
+        "fibre": 6.22
+    },
+    "rucula": {
+        "carbohydrate": 0.29,
+        "protein": 2.48,
+        "energy": 17,
+        "sodium": 6.17,
+        "lipid": 0.12,
+        "fibre": 2.43
+    },
+    "carne-acem": {
+        "carbohydrate": 0.0,
+        "protein": 26.7,
+        "energy": 204,
+        "sodium": 52.9,
+        "lipid": 16.0,
+        "fibre": 0.0
+    },
+    "cebola": {
+        "carbohydrate": 17.16,
+        "protein": 1.76,
+        "energy": 40,
+        "sodium": 0.62,
+        "lipid": 0.13,
+        "fibre": 2.04
+    },
+    "coco": {
+        "carbohydrate": 5.02,
+        "protein": 3.69,
+        "energy": 423,
+        "sodium": 15.3,
+        "lipid": 41.98,
+        "fibre": 5.38
+    },
+    "jejum": {
+        "carbohydrate": 0.0,
+        "protein": 0.0,
+        "energy": 0,
+        "sodium": 0.0,
+        "lipid": 0.0,
+        "fibre": 0.0
+    },
+    "aveia-farelo": {
+        "carbohydrate": 50.0,
+        "protein": 20.0,
+        "energy": 300,
+        "sodium": 0.0,
+        "lipid": 2.31,
+        "fibre": 4.11
+    },
+    "couve-flor": {
+        "carbohydrate": 1.21,
+        "protein": 2.87,
+        "energy": 27,
+        "sodium": 9.09,
+        "lipid": 0.26,
+        "fibre": 2.42
+    },
+    "ervilha": {
+        "carbohydrate": 4.51,
+        "protein": 7.45,
+        "energy": 71,
+        "sodium": 0.0,
+        "lipid": 0.47,
+        "fibre": 4.84
+    },
+    "couve-folha": {
+        "carbohydrate": 3.01,
+        "protein": 1.98,
+        "energy": 27,
+        "sodium": 3.97,
+        "lipid": 2.42,
+        "fibre": 2.42
+    },
+    "pimentao": {
+        "carbohydrate": 3.57,
+        "protein": 1.1,
+        "energy": 24,
+        "sodium": 0.0,
+        "lipid": 0.27,
+        "fibre": 1.67
+    },
+    "sal": {
+        "carbohydrate": 0.0,
+        "protein": 0.0,
+        "energy": 0,
+        "sodium": 19100.0,
+        "lipid": 0.0,
+        "fibre": 0.0
+    },
+    "linhaca": {
+        "carbohydrate": 9.81,
+        "protein": 14.1,
+        "energy": 452,
+        "sodium": 8.67,
+        "lipid": 32.3,
+        "fibre": 33.5
+    },
+    "oleo-coco": {
+        "carbohydrate": 0.0,
+        "protein": 0.0,
+        "energy": 891,
+        "sodium": 0.0,
+        "lipid": 99.1,
+        "fibre": 0.0
+    },
+    "abobora-paulista": {
+        "carbohydrate": 5.26,
+        "protein": 0.64,
+        "energy": 30,
+        "sodium": 500.0,
+        "lipid": 2.61,
+        "fibre": 2.61
+    },
+    "abobrinha": {
+        "carbohydrate": 2.43,
+        "protein": 1.01,
+        "energy": 17,
+        "sodium": 0.0,
+        "lipid": 0.12,
+        "fibre": 1.28
+    },
+    "abobora-cabotian": {
+        "carbohydrate": 6.19,
+        "protein": 1.74,
+        "energy": 40,
+        "sodium": 0.0,
+        "lipid": 0.54,
+        "fibre": 2.17
+    },
+    "azeitona-verde": {
+        "carbohydrate": 0.26,
+        "protein": 0.95,
+        "energy": 140,
+        "sodium": 1347.0,
+        "lipid": 2.0,
+        "fibre": 0.5
+    },
+    "leite": {
+        "carbohydrate": 4.5,
+        "protein": 3.1,
+        "energy": 57,
+        "sodium": 80.0,
+        "lipid": 0.0,
+        "fibre": 0.0
+    },
+    "banana": {
+        "carbohydrate": 24.5,
+        "protein": 1.27,
+        "energy": 109,
+        "sodium": 0.0,
+        "lipid": 0.19,
+        "fibre": 2.24
+    },
+    "morango": {
+        "carbohydrate": 4.87,
+        "protein": 0.82,
+        "energy": 30,
+        "sodium": 11000.0,
+        "lipid": 1.67,
+        "fibre": 1.67
+    },
+    "mamao": {
+        "carbohydrate": 8.89,
+        "protein": 0.57,
+        "energy": 43,
+        "sodium": 2440.0,
+        "lipid": 0.12,
+        "fibre": 1.81
+    },
+    "lingua-cozida": {
+        "carbohydrate": 0.0,
+        "protein": 21.0,
+        "energy": 307,
+        "sodium": 59000.0,
+        "lipid": 0.21,
+        "fibre": 0.0
+    },
+    "bacon-frito": {
+        "carbohydrate": 0.45,
+        "protein": 27.3,
+        "energy": 689,
+        "sodium": 124000.0,
+        "lipid": 64.3,
+        "fibre": 0.0
+    }
+}
