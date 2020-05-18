@@ -59,19 +59,6 @@ class DayMeals:
 
         data = fh.getUpdatedData(self.day_meals_file,day)
         fh.updateJson(self.day_meals_file,data)
-
-        
-    # def getAllDaysResume(self):
-    #     daysList = fh.getJson(self.day_meals_file)
-        
-    #     result = {}
-        
-    #     for day in daysList:
-    #         dayInfo = fh.getJsonObjectByKey(self.day_meals_file)
-    #         result[day]['resume'] = self.
-        
-    #     return result
-                
         
         
     def getMealsByDay(self,day=None):
@@ -82,7 +69,26 @@ class DayMeals:
             if data[key].get("date") == day:
                 dayKey = key
         meals = data[dayKey].get("meals")
-        return meals
+
+        if data[dayKey].get("dayOff"):
+            meals = {
+                "breakfast": {
+                    'jejum':1
+                },
+                "lunch": {
+                    'jejum':1
+                },
+                "afternoon-snack": {
+                    'jejum':1
+                },
+                "dinner": {
+                    "jejum": 1
+                }
+            }
+        if meals:
+            return meals
+        else:
+            print("Error | day_meals | getMealsByDay", meals,day)
     
     def getAmountPropertiesByDay(self, day=None):
         
@@ -125,6 +131,23 @@ class DayMeals:
                 amountDay[_property] = round(amountDay[_property] + amountProperty)
                 
         return amountDay
+    
+    def getAllDaysResume(self):
+        daysList = fh.getJsonKeys(self.day_meals_file)
+        
+        result = {}
+        
+        for day in daysList:
+            day_info = fh.getJsonObjectByKey(self.day_meals_file, day)
+            resume = self.getAmountPropertiesByDay(day_info["date"])
+            result[day] = resume['total']
+
+
+        if result:
+            return result
+        else:
+            print("Error | day_meals | getAllDaysResume")
+                
     
     
         
