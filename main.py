@@ -27,6 +27,8 @@ def main():
         elif (option == 3):
             resp =  choose_day()
             showDayResume(resp)
+        elif (option == 4):
+            showAllDayResume()
         elif (option == 5):
             showMealResume()
         elif (option == 6):
@@ -77,6 +79,9 @@ def addItem():
     properties["protein"] = float(input("protein g/(100g): "))
     properties["energy"] = int(input("energy kcal/(100g): "))
     properties["sodium"] = float(input("sodium mg/(100g): "))*1000
+    properties["fibre"] = int(input("fibre g/(100g): "))
+    properties["lipid"] = int(input("lipid g/(100g): "))
+
 
     foodClass.create(name.lower(), properties)
 
@@ -136,11 +141,17 @@ def choose_meal():
             print("\nopção invalida, tente de novo")
             op = False
     return meal
-
 def show_properties(meal):
-    print('   carbs: {}g\n   prot: {}g\n   energia: {}kcal\n   sodio: {}mg\n'.format(meal['carbohydrate'],meal['protein'],meal['energy'],meal['sodium']))
+    # todo -> move properties to day_meals  and put the properties in food_item like a array
+    print('   carbs: {}g\n   prot: {}g\n   energia: {}kcal\n   sodio: {}mg\n   lipidios: {}g\n   fibras: {}g\n'.format(meal['carbohydrate'],meal['protein'],meal['energy'],meal['sodium'],meal['lipid'],meal['fibre']))
     
-    
+def showAllDayResume():
+    resume = dayMealsClass.getAllDaysResume()
+
+    for key in list(resume.keys()):
+        print('DIA: ',key)
+        show_properties(resume[key])
+        
             
 
 
