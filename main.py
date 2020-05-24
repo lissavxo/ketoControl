@@ -78,7 +78,7 @@ def addItem():
     properties["carbohydrate"] = float(input("carbs g/(100g): "))
     properties["protein"] = float(input("protein g/(100g): "))
     properties["energy"] = int(input("energy kcal/(100g): "))
-    properties["sodium"] = float(input("sodium mg/(100g): "))*1000
+    properties["sodium"] = float(input("sodium mg/(100g): "))
     properties["fibre"] = int(input("fibre g/(100g): "))
     properties["lipid"] = int(input("lipid g/(100g): "))
 
@@ -147,10 +147,11 @@ def show_properties(meal):
     
 def showAllDayResume():
     resume = dayMealsClass.getAllDaysResume()
-
+    print(resume)
     for key in list(resume.keys()):
-        print('DIA: ',key)
-        show_properties(resume[key])
+
+        print('DIA %s: \ndata: %s\nmacros:'%( key, resume[key]["date"]))
+        show_properties(resume[key]["total"])
         
             
 

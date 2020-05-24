@@ -9,7 +9,7 @@ class FoodItem:
         self.properties = fh.getCsv(self.properties_file)
 
     def create(self,item_name, params):
-        # self.validade(params)
+
         item = {
             item_name: params
         }
@@ -18,9 +18,8 @@ class FoodItem:
             with open(self.nutrition_facts_file) as json_file:
                 data = json.load(json_file)
                 data.update(item)
-                #jsom.dump(data, json_file, ensure_ascii=False)
         else:
-            print ('we dont find a path', self.nutrition_facts_file)
+            print ('Error | food_itens | create | We dont find a path!', self.nutrition_facts_file)
 
         with open(self.nutrition_facts_file, 'w') as f:
             json.dump(data, f, ensure_ascii=False)
@@ -38,7 +37,6 @@ class FoodItem:
                 item[_property]
                 response = (" %s : %s " %(item[_property], _property))
             except:
-                #print("excecao", item_name)
                 value = float(input('%s -(100g): '%_property))
                 item[_property] = value
                 new_item = {item_name:item}
@@ -67,9 +65,6 @@ class FoodItem:
         except:
             print("Error | food_itens | addNewProperty ")
 
-        
-    # def validateParams(self, params):
-    #     if(params[""])
 
     def getItem(self, item_name, id=None):
         response = None
@@ -84,7 +79,7 @@ class FoodItem:
         return response
 
     def getPropertyByItem(self,item_name,property_):
-        #print(item_name, property_)
+
         if(item_name =="jejum"):
             return 0
         item = self.getItem(item_name)
@@ -100,7 +95,3 @@ class FoodItem:
         return response
         
 
-
-# fi = FoodItem()
-
-# fi.addNewProperty(["lipid","fibre"])

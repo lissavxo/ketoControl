@@ -3,8 +3,11 @@ import os
 import csv
 
 def updateJson(file_name,data):
-    with open(file_name, 'w') as f:
-            json.dump(data, f, ensure_ascii=False)
+    try:
+        with open(file_name, 'w') as f:
+            json.dump(data, f, ensure_ascii=False)    
+    except:
+         print("Error | file_handler | updateJson")
 
 def getUpdatedData(file_name, new_data):
     data = None 
@@ -65,4 +68,3 @@ def getJsonObjectByKey(file_name, key):
         print("Error | file_handler | getJsonObjectByKey")
     return response 
 
-#addCsvLine("lixo","carb")

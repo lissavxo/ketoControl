@@ -21,7 +21,7 @@ class DayMeals:
 
         for _id in days:
             date_list.append(days[_id].get("date"))
-
+        
         if _date not in date_list:
             self.addDay(_date)
             days = fh.getJson(self.day_meals_file)
@@ -38,7 +38,7 @@ class DayMeals:
                     else:
                         days[_id]["meals"][meal] = params
                         days = fh.getUpdatedData(self.day_meals_file,days)
-        
+    
             fh.updateJson(self.day_meals_file, days)
 
     def addDay(self,dayDate=None):
@@ -140,8 +140,10 @@ class DayMeals:
         for day in daysList:
             day_info = fh.getJsonObjectByKey(self.day_meals_file, day)
             resume = self.getAmountPropertiesByDay(day_info["date"])
-            result[day] = resume['total']
-
+            result[day] = {}
+            result[day]["total"] = resume['total']
+            result[day]["date"] = day_info["date"]
+            
 
         if result:
             return result
@@ -152,18 +154,7 @@ class DayMeals:
     
         
         
-        #print(meals)
-        
 
-        
-        
-        
-        
-# meal = "breakfast"
-# params = {"jejum":1}
-        
-# g = DayMeals()    
-# g.addDayMeal(meal,params,"2020-05-08")
 
     
     
