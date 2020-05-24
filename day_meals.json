@@ -421,12 +421,187 @@
                 "linhaca": 10,
                 "leite": 100,
                 "ovo": 100,
-                "aveia-farelo":7,
+                "aveia-farelo": 7,
                 "bacon": 50,
-                "sal":2
+                "sal": 2
             },
             "dinner": {
                 "jejum": 1.0
+            }
+        }
+    },
+    "18": {
+        "date": "2020-05-16",
+        "meals": {
+            "breakfast": {
+                "jejum": 1
+            },
+            "lunch": {
+                "jejum": 1
+            },
+            "afternoon-snack": {
+                "jejum": 1
+            },
+            "dinner": {
+                "jejum": 1
+            }
+        }
+    },
+    "19": {
+        "date": "2020-05-17",
+        "meals": {
+            "breakfast": {
+                "jejum": 1
+            },
+            "lunch": {
+                "jejum": 1
+            },
+            "afternoon-snack": {
+                "jejum": 1
+            },
+            "dinner": {
+                "jejum": 1
+            }
+        }
+    },
+    "20": {
+        "date": "2020-05-18",
+        "meals": {
+            "breakfast": {
+                "jejum": 1
+            },
+            "lunch": {
+                "carne-acem": 80,
+                "lingua": 70,
+                "ervilha": 70,
+                "abobrinha": 72,
+                "azeite": 5
+            },
+            "afternoon-snack": {
+                "jejum": 0
+            },
+            "dinner": {
+                "ovo": 100,
+                "bacon": 40,
+                "aveia-farelo": 10,
+                "azeite": 10,
+                "alface": 50
+            }
+        }
+    },
+    "21": {
+        "date": "2020-05-19",
+        "meals": {
+            "breakfast": {
+                "jejum": 1
+            },
+            "lunch": {
+                "carne-acem": 140,
+                "lingua": 50,
+                "ervilha": 60,
+                "abobrinha": 36,
+                "trufa": 13.0
+            },
+            "afternoon-snack": {
+                "oleo-coco": 10
+            },
+            "dinner": {
+                "ovo": 150,
+                "azeite": 10,
+                "alface": 40
+            }
+        }
+    },
+    "22": {
+        "date": "2020-05-20",
+        "meals": {
+            "breakfast": {
+                "jejum": 1
+            },
+            "lunch": {
+                "frango": 100,
+                "lingua": 50,
+                "vagem": 30,
+                "abobrinha": 40,
+                "azeite": 10,
+                "sal": 1.0
+            },
+            "afternoon-snack": {
+                "oleo-coco": 10,
+                "ovo": 100,
+                "bacon": 50,
+                "aveia-farelo": 10,
+                "manteiga": 10,
+                "sal": 2
+            },
+            "dinner": {
+                "jejum": 1.0
+            }
+        }
+    },
+    "23": {
+        "date": "2020-05-21",
+        "meals": {
+            "breakfast": {
+                "jejum": 1
+            },
+            "lunch": {
+                "carne-acem": 130,
+                "lingua": 50,
+                "ervilha": 60,
+                "abobrinha": 36,
+                "sal": 1.0,
+                "azeite": 5.0
+            },
+            "afternoon-snack": {
+                "aveia-farelo": 10,
+                "manteiga": 15,
+                "azeite": 5,
+                "oleo-coco": 10,
+                "ovo": 50,
+                "bacon": 50,
+                "sal": 2.0
+            },
+            "dinner": {
+                "jejum": 1.0
+            }
+        }
+    },
+    "24": {
+        "date": "2020-05-22",
+        "meals": {
+            "breakfast": {
+                "jejum": 1
+            },
+            "lunch": {
+                "frango": 100,
+                "vagem": 30,
+                "lingua": 60,
+                "abobrinha": 60
+            },
+            "afternoon-snack": {
+                "ovo": 100,
+                "aveia-farelo": 20,
+                "bacon": 60,
+                "sal": 3.0,
+                "azeite": 10,
+                "manteiga": 3.0
+            },
+            "dinner": {
+                "jejum": 1.0
+            }
+        }
+    },
+    "25": {
+        "date": "2020-05-23",
+        "meals": {
+            "breakfast": {
+                "morango": 93,
+                "iogurte":170,
+                "aveia-farelo":3,
+                "cuscuz":50,
+                "sal":0.5,
+                "manteiga":6
             }
         }
     }

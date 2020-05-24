@@ -227,8 +227,8 @@
         "carbohydrate": 5.26,
         "protein": 0.64,
         "energy": 30,
-        "sodium": 500.0,
-        "lipid": 2.61,
+        "sodium": 0.19,
+        "lipid": 0.18,
         "fibre": 2.61
     },
     "abobrinha": {
@@ -275,32 +275,65 @@
         "carbohydrate": 4.87,
         "protein": 0.82,
         "energy": 30,
-        "sodium": 11000.0,
-        "lipid": 1.67,
+        "sodium": 11.0,
+        "lipid": 0.4,
         "fibre": 1.67
     },
     "mamao": {
         "carbohydrate": 8.89,
         "protein": 0.57,
         "energy": 43,
-        "sodium": 2440.0,
+        "sodium": 2.5,
         "lipid": 0.12,
         "fibre": 1.81
     },
-    "lingua-cozida": {
+    "lingua": {
         "carbohydrate": 0.0,
         "protein": 21.0,
         "energy": 307,
-        "sodium": 59000.0,
-        "lipid": 0.21,
+        "sodium": 59.0,
+        "lipid": 24.8,
         "fibre": 0.0
     },
     "bacon-frito": {
         "carbohydrate": 0.45,
         "protein": 27.3,
         "energy": 689,
-        "sodium": 124000.0,
+        "sodium": 124.0,
         "lipid": 64.3,
         "fibre": 0.0
+    },
+    "trufa": {
+        "carbohydrate": 5.0,
+        "protein": 0.0,
+        "energy": 40,
+        "sodium": 2.0,
+        "fibre": 0,
+        "lipid": 2
+    },
+    "cuscuz": {
+        "carbohydrate": 23.0,
+        "protein": 2.16,
+        "energy": 112,
+        "sodium": 247.0,
+        "fibre": 2.1,
+        "lipid": 0.68
+    },
+    "iogurte": {
+        "carbohydrate": 5.35,
+        "protein": 3.5,
+        "energy": 74.12,
+        "sodium": 74.12,
+        "fibre": 0,
+        "lipid": 4.11
+    },
+    "gergelim-preto":{
+        "carbohydrate": 22.67,
+        "protein": 18,
+        "energy": 573.34,
+        "sodium": 0,
+        "fibre": 12,
+        "lipid": 50
     }
+
 }
