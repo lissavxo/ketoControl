@@ -11,9 +11,13 @@ def updateJson(file_name,data):
 
 def getUpdatedData(file_name, new_data):
     data = None 
-    with open(file_name) as json_file:
-                data = json.load(json_file)
-                data.update(new_data)
+    try:
+        with open(file_name) as json_file:
+                    data = json.load(json_file)
+                    data.update(new_data)
+    except:
+         print("Warning | file_handler | failed open file: %s" %file_name)
+         return 0
     if not data:
         print("Error | file_handler | getUpdatedData")
     return data
@@ -29,11 +33,14 @@ def addCsvLine(file_name,name):
 
 def getCsv(file_name):
     response = []
-    with open(file_name, newline='') as csvfile:
-        datasheet = csv.reader(csvfile, quotechar='|')
-        for row in datasheet:
-            row = "".join(row)
-            response.append(row)
+    try:
+        with open(file_name, newline='') as csvfile:
+            datasheet = csv.reader(csvfile, quotechar='|')
+            for row in datasheet:
+                row = "".join(row)
+                response.append(row)
+    except:
+        print('Warning | file_handler | getCsv | Acess document failed')
     if not len(response) > 0:     
         response =  False
         print('Error | file_handler | getCsv')
@@ -45,13 +52,20 @@ def getCsv(file_name):
 def getJson(file_name):
     data = None
     if os.path.exists(file_name):
-        with open(file_name) as json_file:
-            data = json.load(json_file)
-            #print(data)
+        try:
+            with open(file_name) as json_file:
+                data = json.load(json_file)
+                #print(data)
+        except:
+            print("Error | file_handler | getJson | It breaks tryng to open: %s" %file_name)
+            data = 1
+            return data 
     else:
-        print(file_name)
+        #print(file_name)
+        print("Error | file_handler | getJson | We dont find a file in the path especified %s" %file_name)
+
     if not data : 
-        print("Error | file_handler | getJson")
+        print("Error | file_handler | getJson | We don't find the data you need")
     return data 
 
 def getJsonKeys(file_name):

@@ -1,607 +1,177 @@
 {
     "1": {
-        "date": "2020-04-29",
+        "date": "2020-06-01",
         "meals": {
             "breakfast": {
-                "jejum": 1
+                "oleo-coco": 10
             },
             "lunch": {
-                "jejum": 0,
-                "tomate": 40,
-                "alface": 50,
-                "agriao": 20,
-                "castanha-para": 8,
-                "castanha-caju": 8,
-                "carne-acem": 80
+                "frango": 150,
+                "vagem": 20,
+                "abobrinha": 100
             },
             "afternoon-snack": {
-                "jejum": 0,
-                "coco": 30,
-                "creme-leite": 30
+                "ovo": 100,
+                "manteiga": 10
             },
             "dinner": {
-                "jejum": 0,
-                "frango": 100,
-                "quiabo": 50,
-                "tomate": 20,
-                "alface": 50
+                "chocolate-85": 25.0,
+                "creme-leite": 25.0
             }
         }
     },
     "2": {
-        "date": "2020-04-30",
+        "date": "2020-06-02",
         "meals": {
             "breakfast": {
-                "jejum": 1
+                "oleo-coco": 6
             },
             "lunch": {
-                "jejum": 0,
-                "frango": 100,
-                "quiabo": 60,
-                "azeite": 13.0,
-                "bacon": 20,
-                "agriao": 40
+                "frango": 200,
+                "ervilha": 100,
+                "abobrinha": 74,
+                "quiabo": 17.0,
+                "azeite": 15
             },
             "afternoon-snack": {
-                "jejum": 0,
-                "ovo": 50,
-                "castanha-para": 5.0,
-                "castanha-caju": 3.0
+                "creme-leite": 25.0
             },
             "dinner": {
-                "jejum": 0,
-                "tomate": 40,
-                "cebola": 20,
-                "manteiga": 10,
-                "ovo": 100,
-                "alface": 50,
-                "azeite": 13.0,
-                "rucula": 25.0,
-                "bacon": 41.0
+                "jejum": 1.0
             }
         }
     },
     "3": {
-        "date": "2020-05-01",
+        "date": "2020-06-03",
         "meals": {
             "breakfast": {
-                "jejum": 1
+                "oleo-coco": 6
             },
             "lunch": {
-                "carne-acem": 30,
-                "frango": 100,
-                "azeite": 23.0,
-                "quiabo": 35.0,
-                "alface": 60,
-                "rucula": 25.0
+                "marmita-verde": 100,
+                "ovo": 100,
+                "azeite": 2,
+                "manteiga": 3.0
             },
             "afternoon-snack": {
-                "coco": 30,
-                "creme-leite": 5,
-                "castanha-caju": 10
+                "torresmo": 30,
+                "alface": 25.0,
+                "azeite": 10,
+                "gergelim-preto": 4,
+                "carne-acem": 30
             },
             "dinner": {
-                "ovo": 100,
-                "bacon": 20,
-                "manteiga": 10
+                "jejum": 1.0
             }
         }
     },
     "4": {
-        "date": "2020-05-02",
+        "date": "2020-06-04",
         "meals": {
             "breakfast": {
-                "jejum": 1
+                "oleo-coco": 5.0,
+                "azeite": 2
             },
             "lunch": {
-                "frango": 100,
-                "azeite": 13.0,
-                "quiabo": 16.0,
-                "alface": 24,
-                "rucula": 14.0,
-                "bacon": 60
+                "marmita-verde": 100,
+                "azeite": 10
             },
             "afternoon-snack": {
-                "jejum": 1
+                "ovo": 100
             },
             "dinner": {
-                "aveia-farelo": 10,
-                "ovo": 100,
-                "creme-leite": 8,
-                "tomate": 47.0,
-                "frango": 40
+                "jejum": 1.0
             }
         }
     },
     "5": {
-        "date": "2020-05-03",
+        "date": "2020-06-05",
         "meals": {
             "breakfast": {
-                "jejum": 1
+                "oleo-coco": 10
             },
             "lunch": {
-                "rucula": 60,
-                "frango": 165.0,
-                "amendoim": 5.0,
-                "azeite": 10,
-                "jejum": 1.0
+                "marmita-rosa": 100,
+                "azeite": 5.0,
+                "alface": 25.0
             },
             "afternoon-snack": {
-                "oleo-coco": 6,
-                "sal": 3
+                "carne-acem": 10,
+                "azeite": 5.0,
+                "ovo": 100,
+                "manteiga": 15.0
             },
             "dinner": {
-                "aveia-farelo": 15,
-                "ovo": 100,
-                "creme-leite": 8,
-                "tomate": 43.0,
-                "cebola": 21,
-                "pimentao": 10,
-                "linhaca": 4,
-                "frango": 40
+                "jejum": 1.0
             }
         }
     },
     "6": {
-        "date": "2020-05-04",
+        "date": "2020-06-06",
         "meals": {
             "breakfast": {
-                "ovo": 150,
-                "manteiga": 15
+                "oleo-coco": 13.0
             },
             "lunch": {
-                "frango": 140.0,
+                "marmita-rosa": 100,
                 "azeite": 10
             },
             "afternoon-snack": {
-                "bacon": 60,
-                "quiabo": 20
+                "ovo": 100,
+                "azeitona-verde": 25.0,
+                "pernil-suino": 20
             },
             "dinner": {
-                "jejum": 1
+                "jejum": 1.0
             }
         }
     },
     "7": {
-        "date": "2020-05-05",
+        "date": "2020-06-07",
         "meals": {
             "breakfast": {
-                "linhaca": 10,
-                "ovo": 150,
-                "bacon": 60,
-                "manteiga": 20
-            },
-            "lunch": {
-                "frango": 100,
-                "bacon": 60,
-                "vagem": 20,
-                "abobora-paulista": 45.0,
-                "sal": 3.0,
-                "azeite": 5.0
-            },
-            "afternoon-snack": {
                 "oleo-coco": 10
             },
+            "lunch": {
+                "marmita-rosa": 100,
+                "azeite": 10,
+                "creme-leite": 20
+            },
+            "afternoon-snack": {
+                "creme-leite": 60,
+                "azeitona-verde": 20,
+                "gergelim-preto": 10,
+                "frango": 40,
+                "carne-musculo": 30,
+                "ovo": 100,
+                "queijo-parmesao": 15.0
+            },
             "dinner": {
-                "jejum": 1
+                "azeitona-verde": 15.0,
+                "queijo-mucarela": 50,
+                "creme-leite": 20,
+                "leite": 300
             }
         }
     },
     "8": {
-        "date": "2020-05-06",
+        "date": "2020-06-08",
         "meals": {
             "breakfast": {
-                "linhaca": 4,
-                "ovo": 100,
-                "bacon": 100,
-                "manteiga": 10,
-                "azeite": 5,
-                "amendoim": 10
+                "queijo-mucarela": 30
             },
             "lunch": {
-                "carne-acem": 160,
-                "vagem": 20,
-                "abobora-paulista": 45.0,
-                "abobrinha": 40,
-                "sal": 3.0,
-                "azeite": 5.0
+                "frango": 200
             },
             "afternoon-snack": {
-                "jejum": 1.0
+                "ovo": 120,
+                "queijo-mucarela": 10,
+                "queijo-parmesao": 10,
+                "creme-leite": 80
             },
             "dinner": {
-                "jejum": 1.0
-            }
-        }
-    },
-    "9": {
-        "date": "2020-05-07",
-        "meals": {
-            "breakfast": {
-                "ovo": 150,
-                "abobora-paulista": 4,
-                "linhaca": 4,
-                "carne-acem": 75.0,
-                "azeite": 5.0,
-                "manteiga": 20,
-                "sal": 1
-            },
-            "lunch": {
-                "frango": 100,
-                "bacon": 60,
-                "vagem": 20,
-                "abobora-paulista": 45.0,
-                "sal": 3.0,
-                "azeite": 5.0
-            },
-            "afternoon-snack": {
-                "jejum": 1.0
-            },
-            "dinner": {
-                "jejum": 1.0
-            }
-        }
-    },
-    "10": {
-        "date": "2020-05-08",
-        "meals": {
-            "breakfast": {
-                "jejum": 1
-            },
-            "lunch": {
-                "frango": 60,
-                "carne-acem": 150,
-                "bacon": 30,
-                "vagem": 20,
-                "abobora-paulista": 25.0,
-                "sal": 3.0,
-                "azeite": 5.0
-            },
-            "afternoon-snack": {
-                "oleo-coco": 15.0
-            },
-            "dinner": {
-                "jejum": 1.0
-            }
-        }
-    },
-    "11": {
-        "date": "2020-05-09",
-        "meals": {
-            "breakfast": {
-                "jejum": 1
-            },
-            "lunch": {
-                "jejum": 1
-            },
-            "afternoon-snack": {
-                "jejum": 1
-            },
-            "dinner": {
-                "jejum": 1
-            }
-        }
-    },
-    "12": {
-        "date": "2020-05-10",
-        "meals": {
-            "breakfast": {
-                "jejum": 1
-            },
-            "lunch": {
-                "jejum": 1
-            },
-            "afternoon-snack": {
-                "jejum": 1
-            },
-            "dinner": {
-                "jejum": 1
-            }
-        }
-    },
-    "13": {
-        "date": "2020-05-11",
-        "meals": {
-            "breakfast": {
-                "oleo-coco": 10
-            },
-            "lunch": {
-                "abobora-cabotian": 72,
-                "frango": 100,
-                "vagem": 30,
-                "bacon": 30,
-                "azeite": 5,
-                "manteiga": 5,
-                "sal": 2
-            },
-            "afternoon-snack": {
-                "amendoim": 20,
-                "azeite": 10,
-                "bacon": 50,
-                "manteiga": 10,
-                "sal": 2
-            },
-            "dinner": {
-                "jejum": 1,
-                "sal": 3
-            }
-        }
-    },
-    "14": {
-        "date": "2020-05-12",
-        "meals": {
-            "breakfast": {
-                "oleo-coco": 10
-            },
-            "lunch": {
-                "carne-acem": 150,
-                "abobora-cabotian": 60,
-                "vagem": 40,
-                "azeitona-verde": 20
-            },
-            "afternoon-snack": {
-                "amendoim": 27.0,
-                "manteiga": 5.0,
-                "ovo": 100,
-                "linhaca": 5.0
-            },
-            "dinner": {
-                "jejum": 1.0
-            }
-        }
-    },
-    "15": {
-        "date": "2020-05-13",
-        "meals": {
-            "breakfast": {
-                "oleo-coco": 10
-            },
-            "lunch": {
-                "frango": 100,
-                "abobora-cabotian": 40,
-                "abobrinha": 40,
-                "bacon": 30,
-                "sal": 1
-            },
-            "afternoon-snack": {
-                "bacon": 50,
-                "amendoim": 20,
-                "ovo": 100,
-                "aveia-farelo": 20,
-                "sal": 1
-            },
-            "dinner": {
-                "jejum": 1
-            }
-        }
-    },
-    "16": {
-        "date": "2020-05-14",
-        "meals": {
-            "breakfast": {
-                "oleo-coco": 10
-            },
-            "lunch": {
-                "carne-acem": 150,
-                "vagem": 40,
-                "abobora-cabotian": 60,
-                "leite": 100,
-                "linhaca": 5.0,
-                "sal": 1.0
-            },
-            "afternoon-snack": {
-                "amendoim": 5,
-                "ovo": 50,
-                "bacon": 50,
-                "manteiga": 10,
-                "azeite": 10,
-                "sal": 1,
-                "leite": 60
-            },
-            "dinner": {
-                "sal": 4
-            }
-        }
-    },
-    "17": {
-        "date": "2020-05-15",
-        "meals": {
-            "breakfast": {
-                "oleo-coco": 10
-            },
-            "lunch": {
-                "abobora-cabotian": 60,
-                "abobrinha": 40,
-                "frango": 100,
-                "bacon": 40,
-                "sal": 2.0,
-                "leite": 15
-            },
-            "afternoon-snack": {
-                "linhaca": 10,
-                "leite": 100,
-                "ovo": 100,
-                "aveia-farelo": 7,
-                "bacon": 50,
-                "sal": 2
-            },
-            "dinner": {
-                "jejum": 1.0
-            }
-        }
-    },
-    "18": {
-        "date": "2020-05-16",
-        "meals": {
-            "breakfast": {
-                "jejum": 1
-            },
-            "lunch": {
-                "jejum": 1
-            },
-            "afternoon-snack": {
-                "jejum": 1
-            },
-            "dinner": {
-                "jejum": 1
-            }
-        }
-    },
-    "19": {
-        "date": "2020-05-17",
-        "meals": {
-            "breakfast": {
-                "jejum": 1
-            },
-            "lunch": {
-                "jejum": 1
-            },
-            "afternoon-snack": {
-                "jejum": 1
-            },
-            "dinner": {
-                "jejum": 1
-            }
-        }
-    },
-    "20": {
-        "date": "2020-05-18",
-        "meals": {
-            "breakfast": {
-                "jejum": 1
-            },
-            "lunch": {
-                "carne-acem": 80,
-                "lingua": 70,
-                "ervilha": 70,
-                "abobrinha": 72,
-                "azeite": 5
-            },
-            "afternoon-snack": {
-                "jejum": 0
-            },
-            "dinner": {
-                "ovo": 100,
-                "bacon": 40,
-                "aveia-farelo": 10,
-                "azeite": 10,
-                "alface": 50
-            }
-        }
-    },
-    "21": {
-        "date": "2020-05-19",
-        "meals": {
-            "breakfast": {
-                "jejum": 1
-            },
-            "lunch": {
-                "carne-acem": 140,
-                "lingua": 50,
-                "ervilha": 60,
-                "abobrinha": 36,
-                "trufa": 13.0
-            },
-            "afternoon-snack": {
-                "oleo-coco": 10
-            },
-            "dinner": {
-                "ovo": 150,
-                "azeite": 10,
-                "alface": 40
-            }
-        }
-    },
-    "22": {
-        "date": "2020-05-20",
-        "meals": {
-            "breakfast": {
-                "jejum": 1
-            },
-            "lunch": {
-                "frango": 100,
-                "lingua": 50,
-                "vagem": 30,
-                "abobrinha": 40,
-                "azeite": 10,
-                "sal": 1.0
-            },
-            "afternoon-snack": {
-                "oleo-coco": 10,
-                "ovo": 100,
-                "bacon": 50,
-                "aveia-farelo": 10,
-                "manteiga": 10,
-                "sal": 2
-            },
-            "dinner": {
-                "jejum": 1.0
-            }
-        }
-    },
-    "23": {
-        "date": "2020-05-21",
-        "meals": {
-            "breakfast": {
-                "jejum": 1
-            },
-            "lunch": {
-                "carne-acem": 130,
-                "lingua": 50,
-                "ervilha": 60,
-                "abobrinha": 36,
-                "sal": 1.0,
-                "azeite": 5.0
-            },
-            "afternoon-snack": {
-                "aveia-farelo": 10,
-                "manteiga": 15,
-                "azeite": 5,
-                "oleo-coco": 10,
-                "ovo": 50,
-                "bacon": 50,
-                "sal": 2.0
-            },
-            "dinner": {
-                "jejum": 1.0
-            }
-        }
-    },
-    "24": {
-        "date": "2020-05-22",
-        "meals": {
-            "breakfast": {
-                "jejum": 1
-            },
-            "lunch": {
-                "frango": 100,
-                "vagem": 30,
-                "lingua": 60,
-                "abobrinha": 60
-            },
-            "afternoon-snack": {
-                "ovo": 100,
-                "aveia-farelo": 20,
-                "bacon": 60,
-                "sal": 3.0,
-                "azeite": 10,
-                "manteiga": 3.0
-            },
-            "dinner": {
-                "jejum": 1.0
-            }
-        }
-    },
-    "25": {
-        "date": "2020-05-23",
-        "meals": {
-            "breakfast": {
-                "morango": 93,
-                "iogurte":170,
-                "aveia-farelo":3,
-                "cuscuz":50,
-                "sal":0.5,
-                "manteiga":6
+                "queijo-prato": 85,
+                "leite":300
             }
         }
     }

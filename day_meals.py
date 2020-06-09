@@ -17,14 +17,20 @@ class DayMeals:
         
         # verifying if day exists in data base
         days = fh.getJson(self.day_meals_file)
-        date_list = []
-
-        for _id in days:
-            date_list.append(days[_id].get("date"))
-        
-        if _date not in date_list:
+        if not days:
+            print("Error | day_meals | addDayMeal")
+            exit()
+        elif days == 1:
             self.addDay(_date)
-            days = fh.getJson(self.day_meals_file)
+        else:
+            date_list = []
+
+            for _id in days:
+                date_list.append(days[_id].get("date"))
+        
+            if _date not in date_list:
+                self.addDay(_date)
+        days = fh.getJson(self.day_meals_file)
 
         if days:
             for _id in list(days.keys()):
@@ -43,10 +49,16 @@ class DayMeals:
 
     def addDay(self,dayDate=None):
         if not dayDate: dayDate = str(date.today())
-
+        print("oi")
         data = fh.getJson(self.day_meals_file)
-
-        newId = int(max(list(data.keys())))+1
+        if not data:
+            print("Error | day_meals | addDay")
+            exit()
+        elif data == 1:
+            print("foi")
+            newId = 1
+        else:
+            newId = int(max(list(data.keys())))+1
 
         day = {
             newId:{
@@ -58,6 +70,9 @@ class DayMeals:
         }
 
         data = fh.getUpdatedData(self.day_meals_file,day)
+        if data == 0:
+            data = day
+        
         fh.updateJson(self.day_meals_file,data)
         
         

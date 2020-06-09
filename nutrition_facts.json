@@ -7,6 +7,14 @@
         "lipid": 61.5,
         "fibre": 0.0
     },
+    "pernil-suino": {
+        "carbohydrate": 3.3,
+        "protein": 32.1,
+        "energy": 266,
+        "sodium": 62,
+        "lipid": 13.8,
+        "fibre": 0.0
+    },
     "ovo": {
         "carbohydrate": 2.77,
         "protein": 9.04,
@@ -199,7 +207,7 @@
         "lipid": 0.27,
         "fibre": 1.67
     },
-    "sal": {
+    "sal-light": {
         "carbohydrate": 0.0,
         "protein": 0.0,
         "energy": 0,
@@ -327,13 +335,93 @@
         "fibre": 0,
         "lipid": 4.11
     },
-    "gergelim-preto":{
+    "gergelim-preto": {
         "carbohydrate": 22.67,
         "protein": 18,
         "energy": 573.34,
         "sodium": 0,
         "fibre": 12,
         "lipid": 50
-    }
+    },
+    "marmita-verde": {
+        "carbohydrate": 6.0,
+        "protein": 44.0,
+        "energy": 369,
+        "sodium": 81.0,
+        "fibre": 3,
+        "lipid": 18
+    },
+    "marmita-rosa": {
+        "carbohydrate": 2.0,
+        "protein": 35.0,
+        "energy": 254,
+        "sodium": 93.0,
+        "fibre": 3,
+        "lipid": 12
+    },
+    "chocolate-85": {
+        "carbohydrate": 19.2,
+        "protein": 12.4,
+        "energy": 532,
+        "sodium": 1,
+        "fibre": 17.2,
+        "lipid": 44
+    },
+    "torresmo": {
+        "carbohydrate": 1.0,
+        "protein": 27.2,
+        "energy": 696,
+        "sodium": 692.0,
+        "fibre": 0,
+        "lipid": 63
+    },
+    "queijo-mucarela": {
+        "carbohydrate": 1.97,
+        "protein": 23.0,
+        "energy": 320,
+        "sodium": 506,
+        "fibre": 0,
+        "lipid": 24.1
+    },
+    "queijo-provolone": {
+        "carbohydrate": 2.14,
+        "protein": 25.0,
+        "energy": 350,
+        "sodium": 876,
+        "fibre": 0,
+        "lipid": 26.6
+    },
+    "queijo-parmesao": {
+        "carbohydrate": 4.83,
+        "protein": 32.0,
+        "energy": 477,
+        "sodium": 1480,
+        "fibre": 2.52,
+        "lipid": 36.7
+    },
 
+    "queijo-prato": {
+        "carbohydrate": 0.2,
+        "protein": 24.2,
+        "energy": 345,
+        "sodium": 550,
+        "fibre": 0,
+        "lipid": 27.7
+    },
+    "carne-musculo": {
+        "carbohydrate": 0.02,
+        "protein": 30.0,
+        "energy": 182,
+        "sodium": 61.8,
+        "fibre": 0,
+        "lipid": 6.6
+    },
+    "coca-cola-zero":{
+        "carbohydrate": 0.0,
+        "protein": 0,
+        "energy": 182,
+        "sodium": 14,
+        "fibre": 0,
+        "lipid": 0
+    }
 }
